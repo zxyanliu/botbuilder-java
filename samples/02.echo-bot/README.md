@@ -6,11 +6,15 @@ This sample is a Spring Boot app and uses the Azure CLI and azure-webapp Maven p
 
 ## Prerequisites
 
+- [Git](https://git-scm.com/downloads)
 - Java 1.8+
 - Install [Maven](https://maven.apache.org/)
 - An account on [Azure](https://azure.microsoft.com) if you want to deploy to Azure.
 
 ## To try this sample locally
+- Clone a copy of the botbuilder-java repo. In the `botbuilder-java` directory run the following command
+
+  `mvn clean install`
 - From the root of this project folder:
   - Build the sample using `mvn package`
   - Run it by using `java -jar .\target\bot-echo-sample.jar`
